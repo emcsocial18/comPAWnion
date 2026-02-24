@@ -1,0 +1,12 @@
+IMPORTANT: Save the Intro Image
+================================
+
+Please save the intro image you provided to:
+c:\Users\corpu\Desktop\APP CODING\assets\intro-image.png
+
+Steps:
+1. Right-click on the intro image from your message
+2. Save it to the assets folder
+3. Name it exactly: intro-image.png
+
+Once saved, reload the app and you'll see the beautiful intro screen!

@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "comPAWnion",
+    "slug": "compawnion",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#FFE8D6",
+      "resizeMode": "contain"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/00000000-0000-0000-0000-000000000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.compawnion.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "comPAWnion needs access to your photo library to upload photos of your pets.",
+        "NSCameraUsageDescription": "comPAWnion needs access to your camera to take photos of your pets."
+      }
+    },
+    "android": {
+      "package": "com.compawnion.app",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-font"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run React Native App",
+			"type": "shell",
+			"command": "npx react-native run-android",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run React Native Web",
+			"type": "shell",
+			"command": "npx expo start --web",
+			"group": "build"
+		},
+		{
+			"label": "Run React Native Web",
+			"type": "shell",
+			"command": "npx expo start --web",
+			"group": "build"
+		}
+	]
+}
